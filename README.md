@@ -1,3 +1,4 @@
-# tuf-on-ci-template
+# Test data for tuf-conformance
 
-This is a template for TUF repositories running [TUF-on-CI](https://github.com/theupdateframework/tuf-on-ci).
+This is a repository for creating static test data for tuf-conformance (to test client compatibility with 
+repositories generated with tuf-on-ci).
