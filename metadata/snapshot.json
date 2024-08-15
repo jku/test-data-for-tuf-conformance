@@ -1,0 +1,22 @@
+{
+ "signatures": [
+  {
+   "keyid": "a54e905f3e03bb0cccdc954bd40d4d29b5c1a2a95c2777f10f9c63a503c7f777",
+   "sig": "3045022100c5e899ab5e9064c8eaf466bd1cd175c3d038f37298a94f2998b1af4f2bd2a66602205e7a9b4c1cec1fc343939436607e2827b5e7d9f57e6c84d47bf673fa793b55f0"
+  }
+ ],
+ "signed": {
+  "_type": "snapshot",
+  "expires": "2044-08-10T10:17:00Z",
+  "meta": {
+   "delegatedrole.json": {
+    "version": 1
+   },
+   "targets.json": {
+    "version": 1
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1
+ }
+}
