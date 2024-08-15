@@ -9,6 +9,14 @@
   "_type": "targets",
   "delegations": {
    "keys": {
+    "01104111d18f559cd1ca33a2dd91a2100f2812ffe02c9f70a0e5c4d915b453ac": {
+     "keytype": "ecdsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1wgTb0BVTvCiDlaPmnUfXOLubQMj\nUxjiafwKLMgiRD0fK+XLSKK6fJjrzNkZCIYG78AUmhbRskgJgOatWD+Z9w==\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "ecdsa-sha2-nistp256",
+     "x-tuf-on-ci-keyowner": "@-test-user-"
+    },
     "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81": {
      "keytype": "ecdsa",
      "keyval": {
@@ -21,7 +29,8 @@
    "roles": [
     {
      "keyids": [
-      "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81"
+      "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81",
+      "01104111d18f559cd1ca33a2dd91a2100f2812ffe02c9f70a0e5c4d915b453ac"
      ],
      "name": "delegatedrole",
      "paths": [
@@ -35,7 +44,7 @@
     }
    ]
   },
-  "expires": "2044-08-10T10:07:08Z",
+  "expires": "2044-08-10T10:09:31Z",
   "spec_version": "1.0.31",
   "targets": {},
   "version": 1,
