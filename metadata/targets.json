@@ -2,12 +2,40 @@
  "signatures": [
   {
    "keyid": "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81",
-   "sig": "3045022100aa20cea703e53f6e67546ec80318b539cc996b3caab5917dbb5d82034817f53202202db52c05ef99b017dcfaae35d4c3f474132ab4f968a798199928432eb8976c57"
+   "sig": ""
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2044-08-10T10:05:04Z",
+  "delegations": {
+   "keys": {
+    "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81": {
+     "keytype": "ecdsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEohqIdE+yTl4OxpX8ZxNUPrg3SL9H\nBDnhZuceKkxy2oMhUOxhWweZeG3bfM1T4ZLnJimC6CAYVU5+F5jZCoftRw==\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "ecdsa-sha2-nistp256",
+     "x-tuf-on-ci-keyowner": "@jku"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "aa61e09f6af7662ac686cf0c6364079f63d3e7a86836684eeced93eace3acd81"
+     ],
+     "name": "delegatedrole",
+     "paths": [
+      "delegatedrole/*",
+      "delegatedrole/*/*",
+      "delegatedrole/*/*/*",
+      "delegatedrole/*/*/*/*"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2044-08-10T10:07:08Z",
   "spec_version": "1.0.31",
   "targets": {},
   "version": 1,
